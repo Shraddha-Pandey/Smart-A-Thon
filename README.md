@@ -5,7 +5,7 @@ This is my submission for the Hackathon organized by the IEEE branch of my colle
 
 1. Data Collection : The project assumes a folder containing various n number of documents in pdf format exists on the device of the user. The PyPDF2 library is used to read the PDF files and extract the text from each document.
 
-2. Text Preprocessing : The extracted text undergoes preprocessing steps to clean and prepare it for analysis. This includes removing stop words, punctutaion, and performing stemming or lammatization. We used the spaCy library for these preprocessing tasks.
+2. Text Preprocessing : The extracted text undergoes preprocessing steps to clean and prepare it for analysis. This includes removing stop words, punctutaion, and performing stemming or lemmatization. We used the spaCy library for these preprocessing tasks.
 
 3. Feature Extraction : The TfidfVectorizer from the scikit learn library is used to convert the preprocessed text into numerical features. TF-IDF (Term Frequency-Inverse Document Frequency) is emplyed to represent the importance of each word in the document.
 
